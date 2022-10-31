@@ -3,6 +3,7 @@ package org.chugunov;
 import org.chugunov.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
@@ -49,7 +50,9 @@ public class Communication {
         System.out.println(responseEntity.getBody());
     }
 
-    public void deleteUser(Long id) {
-
+    public void deleteUser(Long id, HttpHeaders headers) {
+        HttpEntity<User> entity = new HttpEntity<>(headers);
+        System.out.println(restTemplate.exchange(
+                URL + "/" + id, HttpMethod.DELETE, entity, String.class).getBody());
     }
 }

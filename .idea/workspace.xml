@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c652b80b-05be-41e8-9ca6-281094aca313" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/Communication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/configuration/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chugunov/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chugunov/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chugunov/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/Communication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +47,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/edu/IdeaProjects/pp315/src/main/java/org/chugunov",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "f0bac7249e04919ab9f74c40b2fc5c5d"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -177,6 +170,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667215138506</updated>
       <workItem from="1667215140381" duration="8759000" />
+      <workItem from="1667244697897" duration="1245000" />
+      <workItem from="1667246491435" duration="7614000" />
     </task>
     <servers />
   </component>
