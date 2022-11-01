@@ -3,6 +3,7 @@ package org.chugunov;
 import org.chugunov.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
@@ -45,11 +46,19 @@ public class Communication {
     }
 
     public void saveUser(User user, HttpHeaders headers) {
-        ResponseEntity<String> responseEntity = restTemplate.postForEntity(URL, user, String.class, headers);
+        HttpEntity<User> entity = new HttpEntity<>(user, headers);
+        ResponseEntity<String> responseEntity = restTemplate.exchange(URL, HttpMethod.POST, entity, String.class);
         System.out.println(responseEntity.getBody());
     }
 
-    public void deleteUser(Long id) {
+    public void updateUser(User user, HttpHeaders headers) {
+        HttpEntity<User> entity = new HttpEntity<>(user, headers);
+        ResponseEntity<String> responseEntity = restTemplate.exchange(URL, HttpMethod.PUT, entity, String.class);
+        System.out.println(responseEntity.getBody());
+    }
 
+    public void deleteUser(Long id, HttpHeaders headers) {
+        HttpEntity<User> entity = new HttpEntity<>(headers);
+        System.out.println(restTemplate.exchange(URL + "/" + id, HttpMethod.DELETE, entity, String.class).getBody());
     }
 }

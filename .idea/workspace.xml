@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c652b80b-05be-41e8-9ca6-281094aca313" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/Communication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/configuration/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/chugunov/AppTest.java" afterDir="false" />
+    <list default="true" id="c652b80b-05be-41e8-9ca6-281094aca313" name="Changes" comment="Fix get and save">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chugunov/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chugunov/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/chugunov/Communication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +50,8 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "spring.configuration.checksum": "f0bac7249e04919ab9f74c40b2fc5c5d"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -176,8 +169,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667215138506</updated>
-      <workItem from="1667215140381" duration="8759000" />
+      <workItem from="1667215140381" duration="9070000" />
+      <workItem from="1667240610756" duration="6076000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix get and save">
+      <created>1667226562175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667226562175</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,5 +195,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix get and save" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix get and save" />
   </component>
 </project>
